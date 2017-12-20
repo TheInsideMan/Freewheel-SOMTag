@@ -11,7 +11,7 @@ To do this please place this code inside of a Apache/Ngnix server and create a I
 
 ### Config ###
 
-Because Freewheel can be configured differently based on the site FW network etc. I have added some logic to allow us to switch between different configs
+Because Freewheel can be configured differently based on the site FW network etc. I have added some logic to allow us to switch between different configs. Please use fw=1 for general testing.
 
 http://www.discovery.de/?fw=1
 
