@@ -14,6 +14,8 @@ To do this please place this code inside of a Apache/Ngnix server and create a I
 Because Freewheel can be configured differently based on the site FW network etc. I have added some logic to allow us to switch between different configs
 
 http://www.discovery.de/?fw=1
+
 http://www.discovery.de/?fw=2
+
 http://www.discovery.de/?fw=3
 
