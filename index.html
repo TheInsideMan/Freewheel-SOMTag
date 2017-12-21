@@ -55,12 +55,15 @@
 
 			</div>
 		</div>
-		<div class="alert alert-warning" role="alert">These are examples to demonstrate certain features and functionality of Brightcove products and services and are provided for demonstration purposes only. These examples are not to be used in production and are not supported by Brightcove or the Brightcove support team.</div>
+		<div class="alert alert-warning" role="alert">
+			These are examples to demonstrate certain features and functionality of Brightcove products and services and are provided for demonstration purposes only. These examples are not to be used in production and are not supported by Brightcove or the Brightcove support team.
+		</div>
 	</div>
 
 	<script type="text/javascript">
 		
-		somtag.cmd('init', { id: 'tlcde'}); 
+		// somtag.cmd('init', { id: 'tlcde'}); 
+		somtag.cmd('init', { "config" : {"id": "tlcde"}});
 		somtag.cmd('getPageTargeting', {}, function(error, result) {
 			var targeting = []; 
 			for(var p in result) {
